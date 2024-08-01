@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog FrontEnd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assest/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <ul>
+          <li><a href="index.html">Inicio</a></li> 
+          <li><a href="detalle.html">Detalle</a></li>
+          <li><a href="registro.html">Registro</a></li>
+        </ul>
+        <img src="assest/image/adl.png" alt="" class="header__logo" />
+        <h2 class="header__title">Blog FrontEnd</h2>
+      </header>
+      <section class="novedades">
+        <div class="container">
+          <h2 class="novedades__title">Novedades</h2>
+          <div class="row novedades__section">
+            <!--COL 1-->
+            <div class="col-12 col-md-4">
+              <div class="novedades__content">
+                <img
+                  src="assest/image/posts/bootstrap.png"
+                  alt=""
+                  class="novedades__img__grande"
+                />
+              </div>
+            </div>
+
+            <!--COL 2-->
+            <div class="col-12 col-md-4 novedades__articles">
+              <div class="novedades__lateral">
+                <div class="novedades__card">
+                  <img
+                    src="assest/image/posts/Herencia-JS.png"
+                    alt=""
+                    class="novedades__img"
+                  />
+                  <div class="card__info">
+                    <p class="novedades__date">24 de noviembre 2022</p>
+                    <h4 class="novedades__subtitle">Herencia en JavaScript</h4>
+                    <div class="novedades__tags">
+                      <img
+                        src="assest/image/adl.png"
+                        alt=""
+                        class="novedades__tag-img"
+                      />
+                      <span class="novedades__tag-text">Desafio Latam</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="novedades__card">
+                  <img
+                    src="assets/image/posts/Etiquetas-semánticas-HTML.png"
+                    alt=""
+                    class="novedades__img"
+                  />
+
+                  <div class="card__info">
+                    <p class="novedades__date">24 de noviembre 2022</p>
+                    <h4 class="novedades__subtitle">Etiqueta Semantica</h4>
+                    <div class="novedades__tags">
+                      <img
+                        src="assest/image/adl.png"
+                        alt=""
+                        class="novedades__tag-img"
+                      />
+                      <span class="novedades__tag-text">Desafio Latam</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="novedades__card">
+                  <img
+                    src="assest/image/posts/reactComponents.png"
+                    alt=""
+                    class="novedades__img"
+                  />
+
+                  <div class="card__info">
+                    <p class="novedades__date">24 de noviembre 2022</p>
+                    <h4 class="novedades__subtitle">Componentes React</h4>
+                    <div class="novedades__tags">
+                      <img
+                        src="assest/image/adl.png"
+                        alt=""
+                        class="novedades__tag-img"
+                      />
+                      <span class="novedades__tag-text">Desafio Latam</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <main class="main">
+        <h3 class="main__subtitle">Populares</h3>
+        <div class="main__card">
+          <img
+            src="./assest/image/posts/vue-components.png"
+            alt=""
+            class="main__img"
+          />
+          <p class="main__date">24 de noviembre 2022</p>
+          <h4 class="main__title">Componente Vue</h4>
+          <div class="main__tags">
+            <img src="assest/image/adl.png" alt="" class="main__tag-img" />
+            <span class="main__tag-text">Desafio Latam</span>
+          </div>
+        </div>
+        <div class="main__card">
+          <img src="./assest/image/posts/api-js.png" alt="" class="main__img" />
+          <p class="main__date">24 de noviembre 2022</p>
+          <h4 class="main__title">Consumo de API con JavaScript</h4>
+          <div class="main__tags">
+            <img src="assest/image/adl.png" alt="" class="main__tag-img" />
+            <span class="main__tag-text">Desafio Latam</span>
+          </div>
+        </div>
+        <div class="main__card">
+          <img src="./assest/image/posts/sass.jpg" alt="" class="main__img" />
+          <p class="main__date">24 de noviembre 2022</p>
+          <h4 class="main__title">css realizable con Sass</h4>
+          <div class="main__tags">
+            <img src="assest/image/adl.png" alt="" class="main__tag-img" />
+            <span class="main__tag-text">Desafio Latam</span>
+          </div>
+        </div>
+        <div class="main__card">
+          <img
+            src="./assest/image/posts/bootstrap.png"
+            alt=""
+            class="main__img"
+          />
+          <p class="main__date">24 de noviembre 2022</p>
+          <h4 class="main__title">Componentes Bootstrap</h4>
+          <div class="main__tags">
+            <img src="assest/image/adl.png" alt="" class="main__tag-img" />
+            <span class="main__tag-text">Desafio Latam</span>
+          </div>
+        </div>
+      </main>
+      <div class="widget">
+        <h3 class="widget__subtitle">Categorías</h3>
+        <div class="widget__box widget__box--html">
+          <img src="assest/image/html.png" class="widget__box-img" alt="" />
+          <h3 class="widget__box-title">HTML</h3>
+        </div>
+        <div class="widget__box widget__box--css">
+          <img src="assest/image/css.png" class="widget__box-img" alt="" />
+          <h3 class="widget__box-title">CSS</h3>
+        </div>
+        <div class="widget__box widget__box--js">
+          <img src="assest/image/js.png" class="widget__box-img" alt="" />
+          <h3 class="widget__box-title">JavaScript</h3>
+        </div>
+        <div class="widget__box widget__box--react">
+          <img src="assest/image/react.png" class="widget__box-img" alt="" />
+          <h3 class="widget__box-title">React</h3>
+        </div>
+        <div class="widget__box widget__box--vue">
+          <img src="assest/image/vue.png" class="widget__box-img" alt="" />
+          <h3 class="widget__box-title">Vue</h3>
+        </div>
+        <div class="widget__box widget__box--bootstrap">
+          <img
+            src="assest/image/bootstrap-logo.png"
+            class="widget__box-img"
+            alt=""
+          />
+          <h3 class="widget__box-title">Bootstrap</h3>
+        </div>
+      </div>
+      <footer class="footer">
+        <img src="assest/image/adl.png" alt="" class="footer__img" />
+        <h4 class="footer__title">Blog FrontEnd</h4>
+        <p class="footer__text">Todos los derechos reservados - 2022</p>
+      </footer>
+    </div>
+  </body>
+</html>
